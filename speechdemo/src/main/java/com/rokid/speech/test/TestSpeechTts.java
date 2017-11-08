@@ -15,11 +15,11 @@ import java.net.URISyntaxException;
  */
 
 public class TestSpeechTts {
-    String key = "9C4D6BEB6448468FB73E75A2C33E6ADE";  //
-    String secret = "32F7A304CE8740C5BD61F587F7DD7B88"; //
+    String key = "";  //  登录自己的开放平台账号然后在语音设备里面可以查看到，是用户自己创建的
+    String secret = ""; // 登录自己的开放平台账号然后在语音设备里面可以查看到，是用户自己创建的
     String deviceTypeId = "98EA4B548AEB4A329D21615B9ED060E5";  //
-    String deviceId = "0202021716000025";  //设备序列号
-    String url = "wss://apigwws-dev.open.rokid.com/api";
+    String deviceId = "";  //设备序列号，可以在自己的pebble设备上进行查看，保密需要没有在demo中给出
+    String url = "wss://apigwws-dev.open.rokid.com/api";   //正式环境为wss://apigwws.open.rokid.com/api
 
     @Test
     public void testTts() {

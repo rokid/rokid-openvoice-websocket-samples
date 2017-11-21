@@ -13,11 +13,11 @@ import java.net.URISyntaxException;
 
 public class TestSpeechVT {
 
-    String key = "9C4D6BEB6448468FB73E75A2C33E6ADE";
-    String deviceTypeId = "98EA4B548AEB4A329D21615B9ED060E5";
+    String key = ""; //登录开放平台创建语音设备可以生成
+    String deviceTypeId = "";  //登录开放平台创建语音设备可以生成
     String version = "1.0";
-    String secret = "32F7A304CE8740C5BD61F587F7DD7B88";
-    String deviceId = "0202021716000025";
+    String secret = "";   //登录开放平台创建语音设备可以生成
+    String deviceId = "";   //真机设备背面可以查询到
     String url = "wss://apigwws.open.rokid.com/api";
 
     @Test
